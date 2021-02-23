@@ -1,0 +1,32 @@
+## Plugin made by i01, @i0dev.com
+
+integration:
+  mcoreFactions:
+    blockWarZone: true
+    blockSafeZone: true
+    blockTeamSwitch: true
+  supremeFactions:
+    blockWarZone: true
+    blockSafeZone: true
+    blockTeamSwitch: true
+messaging:
+  cannotSwitchInWarZone: "&aYou cannot switch locations with players in WarZone!"
+  cannotSwitchInSafeZone: "&aYou cannot switch locations with players in WarZone!"
+  cannotSwitchFriendly: "&aYou cannot switch locations with your own faction members!"
+  switchedLocations: "&aYou switched locations with &f{player}"
+  format: "&cFormat: &f/switcher give <player> <ammount>"
+  gaveSwitcher: "&aYou gave &f{player} &c{count} &aswitcher ball(s)!"
+  receivedSwitcher: "&aYou received &c{count} &aswitcher ball(s) from &c{player}"
+sounds:
+  switchSuccess: VILLAGER_YES
+  switchFail: VILLAGER_NO
+item:
+  name: "&4&lSwitcher Ball"
+  lore:
+    - ""
+    - "&4&l» &cInformation"
+    - "&7 Use this &cswitcher ball&7 to switch places"
+    - "&7 with your opponent in battle! Throw the &csnowball"
+    - "&7 and switch your location! Earn this exclusive"
+    - "&7 item in, &ccrates&7, &ctoken shop&7, &cmobcoins"
+    - "&c shop&7, and more!"

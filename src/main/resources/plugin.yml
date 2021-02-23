@@ -1,0 +1,16 @@
+name: SwitcherBalls
+version: ${project.version}
+main: com.i0dev.SwitcherBalls
+authors: [ i01 ]
+description: Switch your location with another player!
+softdepend:
+  - Factions
+website: i0dev.com
+commands:
+  switcher:
+    description: Main Command
+    permission: switcherballs.give
+permissions:
+  switcherballs.give:
+    description: Give a switcher ball
+    default: op
