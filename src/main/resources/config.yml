@@ -14,9 +14,11 @@ messaging:
   cannotSwitchInSafeZone: "&aYou cannot switch locations with players in WarZone!"
   cannotSwitchFriendly: "&aYou cannot switch locations with your own faction members!"
   switchedLocations: "&aYou switched locations with &f{player}"
-  format: "&cFormat: &f/switcher give <player> <ammount>"
+  format: "&cFormat: &f/switcher give <player> <amount>"
   gaveSwitcher: "&aYou gave &f{player} &c{count} &aswitcher ball(s)!"
   receivedSwitcher: "&aYou received &c{count} &aswitcher ball(s) from &c{player}"
+  switcherOnCooldown: "&cYou are currently on cooldown from throwing a switcher ball for &f{sec} &cmore seconds."
+  noLongerOnCooldown: "&aYou are no longer on a cooldown for throwing switcherballs."
 sounds:
   switchSuccess: VILLAGER_YES
   switchFail: VILLAGER_NO
@@ -30,3 +32,5 @@ item:
     - "&7 and switch your location! Earn this exclusive"
     - "&7 item in, &ccrates&7, &ctoken shop&7, &cmobcoins"
     - "&c shop&7, and more!"
+cooldownSeconds: 10
+msgOnCooldownEnd: true
