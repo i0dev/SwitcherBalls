@@ -78,21 +78,21 @@
             <artifactId>Factions</artifactId>
             <version>2.7</version>
             <scope>system</scope>
-            <systemPath>${basedir}/lib/Factions.jar</systemPath>
+            <systemPath>${basedir}/libs/Factions.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>Supreme</groupId>
             <artifactId>Factions</artifactId>
             <version>1</version>
             <scope>system</scope>
-            <systemPath>${basedir}/lib/SupremeAPI.jar</systemPath>
+            <systemPath>${basedir}/libs/SupremeAPI.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.massivecraft</groupId>
             <artifactId>MassiveCore</artifactId>
             <version>1</version>
             <scope>system</scope>
-            <systemPath>${basedir}/lib/MassiveCore.jar</systemPath>
+            <systemPath>${basedir}/libs/MassiveCore.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
