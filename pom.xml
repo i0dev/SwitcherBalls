@@ -44,10 +44,11 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <createDependencyReducedPom>false</createDependencyReducedPom>
                     <relocations>
                         <relocation>
                             <pattern>de.tr7zw.changeme.nbtapi</pattern>
-                            <shadedPattern>com.i0dev.SwitcherBalls</shadedPattern>
+                            <shadedPattern>com.i0dev.${project.build.finalName}</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>
