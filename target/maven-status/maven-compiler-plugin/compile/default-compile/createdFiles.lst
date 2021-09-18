@@ -1,0 +1,15 @@
+com\i0dev\SwitcherBalls\templates\AbstractManager.class
+com\i0dev\SwitcherBalls\utility\ConfigUtil.class
+com\i0dev\SwitcherBalls\templates\AbstractListener.class
+com\i0dev\SwitcherBalls\utility\Utility.class
+com\i0dev\SwitcherBalls\commands\CmdSwitcherBalls.class
+com\i0dev\SwitcherBalls\config\GeneralConfig.class
+com\i0dev\SwitcherBalls\handlers\SwitcherBallHandler.class
+com\i0dev\SwitcherBalls\Heart.class
+com\i0dev\SwitcherBalls\managers\MessageManager.class
+com\i0dev\SwitcherBalls\templates\AbstractConfiguration.class
+com\i0dev\SwitcherBalls\managers\SwitcherBallManager.class
+com\i0dev\SwitcherBalls\config\MessageConfig.class
+com\i0dev\SwitcherBalls\managers\MessageManager$Pair.class
+com\i0dev\SwitcherBalls\hooks\MCoreFactionsHook.class
+com\i0dev\SwitcherBalls\templates\AbstractCommand.class

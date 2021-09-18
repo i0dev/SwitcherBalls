@@ -1,0 +1,25 @@
+name: SwitcherBalls
+main: com.i0dev.SwitcherBalls.Heart
+version: 1.1.0
+author: i01
+description: This plugin allows you to switch locations with another player with the item Switcher Ball, a projectile that you can
+  throw.
+website: https://i0dev.com/
+softdepend:
+  - Factions
+  - PlaceHolderAPI
+depend:
+  - NBTAPI
+commands:
+  switcherBalls:
+    description: Main command
+    aliases:
+      - switcher
+
+permissions:
+  switcherBalls.give:
+    description: Give switcher
+    default: op
+  switcherBalls.reoad:
+    description: Reload config
+    default: op
