@@ -61,6 +61,14 @@ public class SwitcherBallHandler extends AbstractListener {
         Location throwerLocation = thrower.getLocation();
         Location hitLocation = hit.getLocation();
 
+        if (throwerLocation.distance(hitLocation) > cnf.getBlocksRangeToActivate()) {
+            e.setCancelled(true);
+            thrower.playSound(throwerLocation, Sound.valueOf(cnf.getSwitchFailSound()), 10.0F, 10.0F);
+            msgManager.msg(thrower, msg.getOutOfRange());
+            return;
+        }
+
+
         if (getHeart().isUsingMCoreFactions()) {
             if (cnf.isBlockSystemFactionUse() && MCoreFactionsHook.isSystemFaction(hitLocation)) {
                 msgManager.msg(thrower, msg.getCantUseSystemFaction());

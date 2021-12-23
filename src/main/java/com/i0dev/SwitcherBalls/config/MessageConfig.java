@@ -22,6 +22,7 @@ public class MessageConfig extends AbstractConfiguration {
     String received = "&7You have received &fx{amt} &7Switcher Balls from &c{player}";
     String onCoolDown = "&7You are on cool-down from using Switcher Balls for &c{sec} seconds.";
     String noLongerCoolDown = "&7You are &ano longer&7 on cool-down from using Switcher Balls.";
+    String outOfRange = "&cYou are out of range to use this switcherball.";
 
     String reloadedConfig = "&7You have&a reloaded&7 the configuration.";
     String noPermission = "&cYou don not have permission to run that command.";
