@@ -123,7 +123,8 @@ public class SwitcherBallHandler extends AbstractListener {
             e.setCancelled(true);
             return;
         }
-        e.getEntity().setCustomNameVisible(true);
+        if (cnf.isShowSwitcherballName())
+            e.getEntity().setCustomNameVisible(true);
         e.getEntity().setCustomName(cnf.getDisplayName());
     }
 }
