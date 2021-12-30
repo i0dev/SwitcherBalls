@@ -6,7 +6,7 @@
 
     <groupId>com.i0dev</groupId>
     <artifactId>${project.build.finalName}</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <url>https://i0dev.com/</url>
     <developers>
         <developer>
@@ -136,6 +136,13 @@
             <version>1</version>
             <scope>system</scope>
             <systemPath>${basedir}/../../../../Dependencies/MassiveCore.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>combattag</groupId>
+            <artifactId>combattagplus</artifactId>
+            <version>1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../../../../Dependencies/All Plugins/CombatTagPlus.jar</systemPath>
         </dependency>
     </dependencies>
 </project>

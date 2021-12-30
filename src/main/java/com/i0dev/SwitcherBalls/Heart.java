@@ -31,12 +31,15 @@ public class Heart extends JavaPlugin {
     boolean usingPapi;
     boolean usingMCoreFactions;
 
+    public static boolean usingCombatTag;
+
     @Override
     public void onEnable() {
 
         usingPapi = getServer().getPluginManager().isPluginEnabled("PlaceholderAPI");
         Plugin factions = getServer().getPluginManager().getPlugin("Factions");
         usingMCoreFactions = factions != null && factions.getDescription().getVersion().startsWith("2.");
+        usingCombatTag = getServer().getPluginManager().isPluginEnabled("CombatTagPlus");
 
         managers.addAll(Arrays.asList(
                 new SwitcherBallManager(this),

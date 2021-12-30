@@ -3,6 +3,7 @@ package com.i0dev.SwitcherBalls.handlers;
 import com.i0dev.SwitcherBalls.Heart;
 import com.i0dev.SwitcherBalls.config.GeneralConfig;
 import com.i0dev.SwitcherBalls.config.MessageConfig;
+import com.i0dev.SwitcherBalls.hooks.CombatTagHook;
 import com.i0dev.SwitcherBalls.hooks.MCoreFactionsHook;
 import com.i0dev.SwitcherBalls.managers.MessageManager;
 import com.i0dev.SwitcherBalls.managers.SwitcherBallManager;
@@ -83,6 +84,10 @@ public class SwitcherBallHandler extends AbstractListener {
                 e.setCancelled(true);
                 return;
             }
+        }
+
+        if (cnf.isCombatTagPlus_tagOnSwitcherBall() && Heart.usingCombatTag) {
+            CombatTagHook.combatTagPlayer(hit, thrower);
         }
 
         thrower.teleport(hitLocation);
