@@ -33,6 +33,8 @@ public class GeneralConfig extends AbstractConfiguration {
     long blocksRangeToActivate = 5;
     boolean showSwitcherballName = true;
 
+    boolean combatTagPlus_tagOnSwitcherBall = true;
+
     String switchSuccessSound = "VILLAGER_YES";
     String switchFailSound = "VILLAGER_NO";
 
